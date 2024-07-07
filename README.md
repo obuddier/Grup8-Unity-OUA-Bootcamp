@@ -86,6 +86,8 @@
 
 ![image](https://github.com/obuddier/Grup8-Unity-OUA-Bootcamp/blob/main/Sprint%20Screenshots/Sprint1.png)
 ![image](https://github.com/obuddier/Grup8-Unity-OUA-Bootcamp/blob/main/Sprint%20Screenshots/Sprint1sp.png)
+
+- [Daily Scrum Notları](https://drive.google.com/drive/folders/1ShSIaXFaUdt_9YyxAPtyeECxFmE5K7S3?usp=sharing)
   
 # Sprint Review
 
@@ -116,5 +118,3 @@ Gelecekteki Sprintleri Nasıl İyileştirebiliriz?
 - Sprint planlama toplantılarımızı daha kapsamlı hale getireceğiz.
 
 Bu sprint, ekibimiz için başarılı bir sprintti. Tüm sprint hedeflerini tamamladık ve oyunumuzun temellerini attık.
-
-- [Daily Scrum Notları](https://drive.google.com/drive/folders/1ShSIaXFaUdt_9YyxAPtyeECxFmE5K7S3?usp=sharing)
