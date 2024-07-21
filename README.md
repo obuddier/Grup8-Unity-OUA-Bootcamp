@@ -118,3 +118,43 @@ Gelecekteki Sprintleri Nasıl İyileştirebiliriz?
 - Sprint planlama toplantılarımızı daha kapsamlı hale getireceğiz.
 
 Bu sprint, ekibimiz için başarılı bir sprintti. Tüm sprint hedeflerini tamamladık ve oyunumuzun temellerini attık.
+
+## **Sprint 2**
+- Sprint içinde hedeflenen ve tamamlanan story points değeri 81'dur.
+- Bu sprintte tamamlanan task değeri 79,başlanan ve devam eden tasklerin değerleri 29 story pointtir.
+- Daily scrum için haftada en az 4 kere olmak üzere saat 20.00'de kurduğumuz discord sunucusunda sesli toplantılar düzenlendi. Bunlar dışındaki gelişmeler yine aynı discord serverda mesajlaşarak gerçekleşti.
+  
+**Sprint Board Updates**
+
+![image](https://github.com/obuddier/Grup8-Unity-OUA-Bootcamp/blob/main/Sprint%20Screenshots/Sprint2.png)
+![image](https://github.com/obuddier/Grup8-Unity-OUA-Bootcamp/blob/main/Sprint%20Screenshots/Sprint2sp.png)
+
+- [Daily Scrum Notları](https://drive.google.com/drive/folders/1ShSIaXFaUdt_9YyxAPtyeECxFmE5K7S3?usp=sharing)
+  
+# Sprint Review
+
+- Oyundaki karakterlerin temel kontrolleri kodlandı.
+- Oyun karakterlerinin çoğu ve oyunda kullanılacak itemler modellendi ,oyuna implement edildi.
+- Multiplayer için lobby oluşturuldu üstüne çalışılmaya devam ediliyor.
+- Oyun için ses dizaynı düzenlendi.
+- Oyunun ana sahnesi tasarlandı.
+- Gelecek sprintler için planlama yapıldı.
+
+# Sprint Retrospective
+
+Tüm ekip üyeleri Sprint Retrospective'e Katılım sağladı.
+
+Ne İyi Gitti?
+- Ekip, sprint boyunca iş birliği yaptı.
+- Planlanan bir çok hedefe ulaşıldı.
+- Ekip, yeni teknolojileri uygulamayı öğrendi.
+
+Ne Kötü Gitti?
+- Bazı hedeflerimizin tahmin edilen tamamlanma tarihlerinde uzatmalar yaşandı.
+- Ekip üyeleri arasında iletişimde aksaklıklar yaşandı.
+
+Gelecekteki Sprintleri Nasıl İyileştirebiliriz?
+- Gelecekteki sprintlerde daha sıkı bir çalışma temposuna sahip olunması planlandı.
+- Günlük scrum toplantılarımızın süreleri uzatmaya karar verildi.
+
+Bu sprint, ekibimiz için başarılı bir sprintti.
