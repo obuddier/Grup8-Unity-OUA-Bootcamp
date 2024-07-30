@@ -7,6 +7,7 @@ public class PlayerMovement : NetworkBehaviour
     private bool _jumpPressed;
 
     public Camera _camera;
+    public GameObject headPos;
 
     private CharacterController _controller;
 
@@ -64,6 +65,7 @@ public class PlayerMovement : NetworkBehaviour
         {
             _camera = Camera.main;
             _camera.GetComponent<FirstPersonCamera>().Target = transform;
+           
         }
     }
 

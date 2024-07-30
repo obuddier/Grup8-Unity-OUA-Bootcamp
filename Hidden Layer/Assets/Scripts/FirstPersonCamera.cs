@@ -14,7 +14,7 @@ public class FirstPersonCamera : MonoBehaviour
         {
             return;
         }
-
+        
         transform.position = Target.position;
 
         float mouseX = Input.GetAxis("Mouse X");
