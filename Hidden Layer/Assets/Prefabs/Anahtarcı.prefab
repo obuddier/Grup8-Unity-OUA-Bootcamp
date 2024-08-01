@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 124989955368742106}
+  - component: {fileID: 5915693815006467721}
   m_Layer: 0
   m_Name: HeadCam
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   - {fileID: 9084852464435239434}
   m_Father: {fileID: 387220781191330711}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5915693815006467721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5276806407452193304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03dfe7850644244ba85123a33b4f1bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 120
+  playerBody: {fileID: 387220781191330711}
 --- !u!1 &6647646058671486716
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,12 +200,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f7fd03c2ddfc63648a247eeeebe0ba8d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.38
+      value: 0.568
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7fd03c2ddfc63648a247eeeebe0ba8d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4648583
+      value: -0.896
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7fd03c2ddfc63648a247eeeebe0ba8d,
         type: 3}
@@ -247,7 +262,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7fd03c2ddfc63648a247eeeebe0ba8d,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8040273401908183150}
+      addedObject: {fileID: 3522076812830536796}
   m_SourcePrefab: {fileID: 100100000, guid: f7fd03c2ddfc63648a247eeeebe0ba8d, type: 3}
 --- !u!4 &387220781191330711 stripped
 Transform:
@@ -287,7 +302,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!114 &8040273401908183150
+--- !u!114 &3522076812830536796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,11 +311,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1014576085976654125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4450ab93e0a4fe946ae525b0e7ef4593, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2e318da6cac4941b92a2db6df51652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpSpeed: 8
-  gravity: 20
-  lookSpeed: 2
-  lookXLimit: 45
+  controller: {fileID: 5020292575825257037}
+  baseSpeed: 8
+  gravity: -9.81
+  jumpHeight: 3
+  sprintSpeed: 3
