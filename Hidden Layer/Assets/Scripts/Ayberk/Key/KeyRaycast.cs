@@ -1,5 +1,3 @@
-using System;
-using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,8 +18,10 @@ namespace KeySystem
         private bool doOnce;
 
         private string interactableTag = "InteractiveObject";
+        private string parchmentTag = "Parchment";
 
 
+        public int ParchmentCount = 0;
         private void Update()
         {
             RaycastHit hit;
@@ -45,6 +45,20 @@ namespace KeySystem
                     if (Input.GetKeyDown(openDoorKey))
                     {
                         raycastedObject.ObjectInteraction();
+                    }
+                }
+
+                else if (hit.collider.CompareTag(parchmentTag))
+                { 
+                    CrosshairChange(true);
+                    isCrosshairActive = true;
+                    
+                    if (Input.GetKeyDown(openDoorKey))
+                    {
+                        isCrosshairActive = true;
+                        Destroy(hit.collider.gameObject);
+                        ParchmentCount += 1;
+                        Debug.Log(ParchmentCount);
                     }
                 }
             }
