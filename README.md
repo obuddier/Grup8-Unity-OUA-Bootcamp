@@ -60,19 +60,18 @@
 
 ## Oyun Açıklaması
 
-**Hidden Layer**, dört farklı rolü olan, 4 kişilik multiplayer bir korku/gerilim oyunudur. Amacınız, arkadaşlarınızla birlikte Pehlivan, İmam, Çilingir veya Haritacı rollerinden birini seçerek defineyi toplamak. Farklı engelleri açıp cinlerden kaçmaya çalışacaksınız.
+**Hidden Layer**, bir korku/gerilim oyunudur. Amacınız, sizi kalesine hapsetmiş büyücüden kurtulmak.
 
 ## Oyun Özellikleri
 
 - Gizem, Gerilim ve Survivor türünde
 - 3D 
-- Multiplayer
-- Tekrar oynanabilirlik
+- Hikaye odaklı
 
 ## Hedef Kitle
 - Genel kitle:
   - Gizem, gerilim ve survivor türünde oyunları seven oyuncular
-  - Co-op oyun sevenler
+  - Hikaye odaklı oyun sevenler
   - Korku/gerilim oyunu sevenler
   - 13 yaş ve üzeri oyuncular
 
@@ -158,3 +157,35 @@ Gelecekteki Sprintleri Nasıl İyileştirebiliriz?
 - Günlük scrum toplantılarımızın süreleri uzatmaya karar verildi.
 
 Bu sprint, ekibimiz için başarılı bir sprintti.
+
+## **Sprint 3**
+- Sprint içinde hedeflenen story point 170 ve tamamlanan story points değeri 138'dur.
+- Bu sprintte devam eden tasklerin değerleri 18 ,tamamlanmayan task değeri ise 18 story pointtir.
+- Daily scrum için haftada en az 3 kere olmak üzere saat 20.00'de kurduğumuz discord sunucusunda sesli toplantılar düzenlendi. Bunlar dışındaki gelişmeler yine aynı discord serverda mesajlaşarak ya da whatsapp grubunda mesajlaşarak gerçekleşti.
+  
+**Sprint Board Updates**
+
+![image](https://github.com/obuddier/Grup8-Unity-OUA-Bootcamp/blob/main/Sprint%20Screenshots/Sprint3.png)
+![image](https://github.com/obuddier/Grup8-Unity-OUA-Bootcamp/blob/main/Sprint%20Screenshots/Sprint3sp.png)
+
+- [Daily Scrum Notları](https://drive.google.com/drive/folders/1ShSIaXFaUdt_9YyxAPtyeECxFmE5K7S3?usp=sharing)
+  
+# Sprint Review
+
+- Oyundaki düşmanın AI kodları yazıldı.
+- Oyunda kullanılacak itemler oyunda etkileşime girilebilir hale getirildi.
+- Oyun için ses dizaynı düzenlendi.
+- Oyunun ana sahnesi tasarımı geliştirildi.
+- Ana ekran UI tasarıldı ve oyuna eklendi.
+
+# Sprint Retrospective
+
+Tüm ekip üyeleri Sprint Retrospective'e Katılım sağladı.
+
+Ne İyi Gitti?
+- Ekip, sprint boyunca iş birliği yaptı.
+- Diğer sprintlerden daha aktif bir süre yaşandı..
+- Ekip, yeni teknolojileri uygulamayı öğrendi.
+
+Ne Kötü Gitti?
+- Hedeflenen görevler tamamlanamadı.
