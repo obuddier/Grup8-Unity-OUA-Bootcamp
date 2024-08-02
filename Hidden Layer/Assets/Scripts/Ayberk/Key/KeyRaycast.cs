@@ -32,7 +32,7 @@ namespace KeySystem
         {
             if(ParchmentCount == 5)
             {
-                //GameOver
+                GameOver();
             }
             RaycastHit hit;
             Vector3 fwd = transform.TransformDirection(Vector3.forward);

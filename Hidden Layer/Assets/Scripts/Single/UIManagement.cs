@@ -8,6 +8,7 @@ public class UIManagement : MonoBehaviour
 {
     public void StartGame()
     {
+        Debug.Log("Çalýþtým oyun baþlamalý");
         SceneManager.LoadScene(1);
     }
 }
