@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace KeySystem
 {
@@ -10,6 +11,8 @@ namespace KeySystem
         [SerializeField] private string excluseLayerName=null;
 
         private KeyItemController raycastedObject;
+        public Image gameOver;
+        public Button mainMenuBtn;
         
         [SerializeField]  private KeyCode openDoorKey = KeyCode.Mouse0;
 
@@ -22,8 +25,15 @@ namespace KeySystem
 
 
         public int ParchmentCount = 0;
+
+     
+
         private void Update()
         {
+            if(ParchmentCount == 5)
+            {
+                //GameOver
+            }
             RaycastHit hit;
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
@@ -71,6 +81,13 @@ namespace KeySystem
                     doOnce = false;
                 }
             }
+        }
+        void GameOver()
+        {
+            gameOver.enabled = true;
+            mainMenuBtn.enabled = true;
+            Time.timeScale = 0f;
+            //resim açýlacak
         }
 
         void CrosshairChange(bool on)
