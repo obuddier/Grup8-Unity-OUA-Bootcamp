@@ -9,7 +9,7 @@ public class EnemyAI : MonoBehaviour
     public NavMeshAgent ai;
     public List<Transform> destinations;
     public Animator aiAnim;
-    public float walkSpeed, chaseSpeed, minIdleTime, maxIdleTime, idleTime, sightDistance, catchDistance, chaseTime, minChaseTime, maxChaseTime, jumpscareTime;
+    public float walkSpeed, chaseSpeed, minIdleTime, maxIdleTime, idleTime, sightDistance, catchDistance, chaseTime, minChaseTime, maxChaseTime;
     public bool walking, chasing;
     public Transform player;
     Transform currentDest;
@@ -99,7 +99,7 @@ public class EnemyAI : MonoBehaviour
     }
     IEnumerator deathRoutine()
     {
-        yield return new WaitForSeconds(jumpscareTime);
+        yield return new WaitForSeconds(0f);
         SceneManager.LoadScene(deathScene);
     }
 }
